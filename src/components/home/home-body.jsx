@@ -21,7 +21,7 @@ export default class HomeBody extends React.PureComponent {
         <div className='pt-content-card__body__icons flex flex-cross-center flex-sa'>
           <Link to='/about' title={langContext.about}><HomeButton iconTitle={langContext.about_alt} iconName='account' /></Link>
           <Link to='/work' title={langContext.work}><HomeButton iconTitle={langContext.work_alt} iconName='folder' /></Link>
-          <Link to='/contact' title={langContext.contact}><HomeButton iconTitle={langContext.contact_alt} iconName='message' /></Link>
+          {/* <Link to='/contact' title={langContext.contact}><HomeButton iconTitle={langContext.contact_alt} iconName='message' /></Link> */}
         </div>
         {
           this.props.profile.social.length > 0 &&

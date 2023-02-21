@@ -1,39 +1,37 @@
 const profile = {
-  fullName: 'Website Owner',
-  description: 'FRONT-END DEVELOPER',
+  fullName: 'MARK MATHIS',
+  description: 'BUILDER',
   // The basepath is the assets folder
   /// the file sould be imported in assets-import.js
-  avatarPath: 'avatar.svg',
+  avatarPath: 'mark.jpeg',
   about: {
-    title: `HEY THERE! 
-    I'M WEBSITE OWNER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-   
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.`,
+    title: `About Me`,
+    description: `I fell down the crypto rabbit hole in 2017 and have been hooked ever since. I have worked in the Defi, Gamefi, and NFT space as everything from a fullstack dev to CTO and love being hands on. 
+    
+    I am also an active contributor to the open source community and have contributed to projects such as Ethereum Classic, Decred, Origin Protocol, and the Cosmos SDK.`,
     findMeOn: [
       {
         iconName: 'location',
-        text: 'Location, Place',
+        text: 'Charlotte, NC, USA',
         url: '',
         hoverColor: '#546e7a'
       },
       {
         iconName: 'twitter',
-        text: '@username',
-        url: 'https://twitter.com/username',
+        text: '@cipherzzz',
+        url: 'https://twitter.com/cipherzzz',
         hoverColor: '#1da1f2'
       },
       {
         iconName: 'email',
-        text: 'email@email.com',
+        text: 'dev@cipherz.com',
         url: 'mailto://email@email.com',
         hoverColor: '#546e7a'
       },
       {
-        iconName: 'lock',
-        text: '@kuser',
-        url: 'https://keybase.io/kuser',
+        iconName: 'telegram',
+        text: '@cipherzzz',
+        url: 'https://telegram.org',
         hoverColor: '#e9641c'
       }
     ]
