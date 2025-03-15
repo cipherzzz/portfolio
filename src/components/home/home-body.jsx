@@ -20,7 +20,7 @@ export default class HomeBody extends React.PureComponent {
       <div className='pt-content-card__body flex flex-dc flex-main-center'>
         <div className='pt-content-card__body__icons flex flex-cross-center flex-sa'>
           <Link to='/about' title={langContext.about}><HomeButton iconTitle={langContext.about_alt} iconName='account' /></Link>
-          <a href='https://drive.google.com/file/d/1_s7faL5UKfJmiBgwDZuk0ypNn3_rknNT/view?usp=sharing' title='Resume' target='_blank'><HomeButton iconTitle="Resume" iconName='web' /></a>
+          <a href='https://drive.google.com/file/d/1h4PIAeaT8eE25qk0Qf9uP3ZFPs-J5qgT/view?usp=sharing' title='Resume' target='_blank'><HomeButton iconTitle="Resume" iconName='web' /></a>
           <Link to='/work' title={langContext.work}><HomeButton iconTitle={langContext.work_alt} iconName='folder' /></Link>
           {/* <Link to='/contact' title={langContext.contact}><HomeButton iconTitle={langContext.contact_alt} iconName='message' /></Link> */}
         </div>

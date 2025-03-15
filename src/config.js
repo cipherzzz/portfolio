@@ -66,22 +66,22 @@ const profile = {
 
 const projects = [
   {
+    title: "bsd.money",
+    img: "https://avatars.githubusercontent.com/u/169288733?s=200&v=4",
+    description: "Staff/Founding Engineer for bsd.money - a lending protocol",
+    categories: ["Defi", "Clarity", "Typescript"],
+    sourceCodeUrl:
+      "https://explorer.hiro.so/txid/ST2XX28V6YR45HZJ0D5990MRCBHMGC843GQQ12N1Q.vault-v1-0?chain=testnet",
+    siteUrl: "https://bsd.money",
+  },
+  {
     title: "cSigma.finance",
     img: "https://csigma.finance/dash/wp-content/uploads/2023/06/main-svg-logo.svg",
     description: "Served as CTO for cSigma.finance, a RWA protocol",
     categories: ["Defi", "Solidity", "Typescript"],
     sourceCodeUrl:
-      "https://finance.yahoo.com/news/csigma-finance-launches-private-credit-143700503.html?.tsrc=fin-srch",
+      "https://louper.dev/diamond/0xF80bA51189763B7AC484A23f7d7695345B1149C9?network=mainnet",
     siteUrl: "https://csigma.finance",
-  },
-  {
-    title: "Decred",
-    img: "https://avatars.githubusercontent.com/u/16297194?s=200&v=4",
-    description: "I worked as a paid contributor to the Decred project",
-    categories: ["Go", "Open Source", "Blockchain"],
-    siteUrl: "https://decred.org/",
-    sourceCodeUrl:
-      "https://github.com/pulls?q=is%3Apr+author%3Acipherzzz+user%3Adecred",
   },
   {
     title: "Origin Protocol",
@@ -134,6 +134,24 @@ const projects = [
     sourceCodeUrl:
       "https://github.com/Bounty-X/bountyx/pulls?q=is%3Apr+author%3Acipherzzz",
   },
+  {
+    title: "Decred",
+    img: "https://avatars.githubusercontent.com/u/16297194?s=200&v=4",
+    description: "I worked as a paid contributor to the Decred project",
+    categories: ["Go", "Open Source", "Blockchain"],
+    siteUrl: "https://decred.org/",
+    sourceCodeUrl:
+      "https://github.com/pulls?q=is%3Apr+author%3Acipherzzz+user%3Adecred",
+  },
+  {
+    title: "Infinite Reality",
+    img: "https://cdn.prod.website-files.com/6682e4a0fd35346671405e7b/67596355b305c1181f5116b4_infinite-Reality-logo1.svg",
+    description: "Blockchain developer creating an NFT marketplace",
+    categories: ["Go", "Open Source", "Blockchain"],
+    siteUrl: "https://www.theinfinitereality.com/",
+    sourceCodeUrl:
+      "https://github.com/cipherzzz/Artion-API-GraphQL",
+  },
 ];
 
 const formUrl = "http://localhost:4000";
@@ -142,4 +160,5 @@ const ReCAPTCHAKey = "6LcBOC8UAAAAAM9YRyBp1RR-1NnwvMU8UDsR63Vu";
 /// the file sould be imported in assets-import.js
 const missingProjectIcon = "no-work-icon.jpg";
 
-export { profile, projects, formUrl, ReCAPTCHAKey, missingProjectIcon };
+export { formUrl, missingProjectIcon, profile, projects, ReCAPTCHAKey };
+
