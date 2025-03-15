@@ -5,8 +5,7 @@
   "repository": "https://github.com/nethruster/ptemplate.git",
   "author": "Nethruster <support@nethruster.com>",
   "engines": {
-    "node": ">=14.0.0 <17.0.0",
-    "npm": ">=6.0.0"
+    "node": "16.20.2"
   },
   "scripts": {
     "dev": "webpack-dev-server",
