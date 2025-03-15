@@ -20,6 +20,6 @@ jobs:
     - name: Build website
       run: yarn build-render
     - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dist # The folder the action should deploy.
+      uses: JamesIves/github-pages-deploy-action@releases/v4
+      with:
+        FOLDER: dist
